@@ -1,98 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><!--documento escrito en html -->
+<html lang="en"><!-- esta principalmente en algun idioma,"en" significa ingles-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablas en HTML</title>
-</head>
+<head><!-- inicio del contenedor de los metadatos-->
+    <meta charset="UTF-8"><!--caracteres de un sitio web -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- el area de la ventana que se puede ver-->
+    <title>Tablas en HTML</title><!-- el titulo del sitio-->
+</head><!-- fin de la etiqueta haad-->
 
-<body>
-    <h1>Tipos de tablas</h1>
-    <p>El objetivo fundamental de las tablas en HTML sera
-        mostrar una serie de datos en forma ordenada,
+<body><!-- inicio del cuerpo, seran todos  los dtaos visibles-->
+    <h1>Tipos de tablas</h1><!-- encabezado principal -->
+    <p>El objetivo fundamental de las tablas en HTML sera mostrar una serie de datos en forma ordenada,
         organizado en filas y columnas
-    </p>
-    <p>Para la creacion de una tabla intervienen diferentes elementos:</p>
-    <dl>
-        <dt>Table</dt>
-        <dd>
+    </p><!-- un parrfo escrito -->
+    <p>Para la creacion de una tabla intervienen diferentes elementos:</p><!-- un parrfo escrito -->
+    <dl> <!-- lista de descripción  -->
+        <dt>Table</dt> <!-- es el primer termino  -->
+        <dd><!-- descripcioon del termino  -->
             Es la marca de comienzo de la tabla. Este elemento requiere
             la marca de cierre.
-        </dd>
-        <dt>Tr</dt>
-        <dd>
+        </dd><!-- fin de la etiqueta  dd  -->
+        <dt>Tr</dt> <!-- es el segundo termino  -->
+        <dd><!-- descripcioon del termino  -->
             Es la marca de comienzo de una fila. Esta marca debe estar
             dentro del elemento table
-        </dd>
-        <dt>Td</dt>
-        <dd>
+        </dd><!-- fin de la etiqueta  dd  -->
+        <dt>Td</dt> <!-- es el tercer termino  -->
+        <dd> <!-- descripcioon del termino  -->
             Es la marca de comeinzo de una celda. Esta marca debe estar
             dentro del elemento tr
-        </dd>
-    </dl>
-    <h2>Ejemplo</h2>
-    <table border="1">
-        <tr>
-            <td>Ciudad de Mexico</td>
-            <td>9.2 millones</td>
-        </tr>
-        <tr>
-            <td>Guadalajara</td>
-            <td>4.1 millones</td>
-        </tr>
-        <tr>
-            <td>Monterrey</td>
+        </dd><!-- fin de la etiqueta  dd  -->
+    </dl> <!-- fin de la lista de descripcioness  -->
+    <h2>Ejemplo</h2> <!-- encabezaado mas pequeno-->
+    <table border="1"><!-- inicio de la tabla con un borde de un pixel -->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Ciudad de Mexico</td><!-- primer dato de la tabla -->
+            <td>9.2 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr-->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Guadalajara</td><!-- primer dato de la tabla -->
+            <td>4.1 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr-->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Monterrey</td><!-- primer dato de la tabla -->
+            <td>3.9 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr-->
+    </table><!-- cierre de la tabla -->
+    <h2>Tabla con encabezado</h2> <!-- encabezaado mas pequeno-->
+    <p>La caracteristicas de esta tabla es que se le agrega a las celdas el encabezado correspondiente, esto solo aplicaria a la primera
+        fila de la tabla con la etiqueta <em>th</em>, las demas filas usarian la etiqueta <em>td</em> con normalidad.
+    </p><!-- un parrfo escrito, con emfasis (em) -->
+    <table border="1"> <!-- inicio de la tabla con un borde de un pixel -->
+        <tr> <!-- fila horizontal de celdas dentro de una tabla -->
+            <th>Ciudad</th><!--primer encabezado de la tabla-->
+            <th>Cantidad de habitantes</th><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr-->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Ciudad de Mexico</td><!--primer encabezado de la tabla-->
+            <td>9.2 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr -->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Guadalajara</td><!--primer encabezado de la tabla-->
+            <td>4.1 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr -->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Monterrey</td><!--primer encabezado de la tabla-->
             <td>3.9 millones</td>
-        </tr>
-    </table>
-    <h2>Tabla con encabezado</h2>
-    <p>La caracteristicas de esta tabla es que se le agrega a las celdas 
-        el encabezado correspondiente, esto solo aplicaria a la primera
-        fila de la tabla con la etiqueta <em>th</em>, las demas filas
-        usarian la etiqueta <em>td</em> con normalidad.
-    </p>
-    <table border="1">
-        <tr>
-            <th>Ciudad</th>
-            <th>Cantidad de habitantes</th>
-        </tr>
-        <tr>
-            <td>Ciudad de Mexico</td>
-            <td>9.2 millones</td>
-        </tr>
-        <tr>
-            <td>Guadalajara</td>
-            <td>4.1 millones</td>
-        </tr>
-        <tr>
-            <td>Monterrey</td>
-            <td>3.9 millones</td>
-        </tr>
-    </table>
-    <h2>Tabla con titulo</h2>
+        </tr><!-- fin de la etiqueta tr -->
+    </table> <!-- se cierra la tabla -->
+    <h2>Tabla con titulo</h2> <!-- encabezaado mas pequeno-->
     <p>Para insertar un titulo a la tabla debemos incorporar el elemento caption 
-        inmediatamente despues de abrir la etiqueta <em>table</em>.
+        inmediatamente despues de abrir la etiqueta <em>table</em>. <!-- un parrfo escrito, con emfasis (em) -->
     </p>
-    <table border="1">
+    <table border="1"><!-- inicio de la tabla con un borde de un pixel -->
         <caption>Poblacion de las ciudades mas concurridas de Mexico</caption>
-        <tr>
-            <th>Ciudad</th>
-            <th>Cantidad de habitantes</th>
-        </tr>
-        <tr>
-            <td>Ciudad de Mexico</td>
-            <td>9.2 millones</td>
-        </tr>
-        <tr>
-            <td>Guadalajara</td>
-            <td>4.1 millones</td>
-        </tr>
-        <tr>
-            <td>Monterrey</td>
-            <td>3.9 millones</td>
-        </tr>
-    </table>
-</body>
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <th>Ciudad</th><!--primer encabezado de la tabla-->
+            <th>Cantidad de habitantes </th> <!-- segundo encabezado de la tabla -->
+        </tr><!-- fila horizontal de celdas dentro de una tabla -->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Ciudad de Mexico</td><!-- primer dato de la tabla -->
+            <td>9.2 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr -->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Guadalajara</td><!-- primer dato de la tabla -->
+            <td>4.1 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr -->
+        <tr><!-- fila horizontal de celdas dentro de una tabla -->
+            <td>Monterrey</td><!-- primer dato de la tabla -->
+            <td>3.9 millones</td><!-- segundo dato de la tabla -->
+        </tr><!-- fin de la etiqueta tr -->
+    </table><!-- fin  de la tabla  -->
+</body><!-- fin del cuerpo -->
 
-</html>
+</html><!-- fin del codigo html  -->
