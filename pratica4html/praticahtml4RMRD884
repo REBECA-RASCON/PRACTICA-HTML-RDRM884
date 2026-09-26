@@ -1,0 +1,25 @@
+<!-- REBECA MIRANDA RASCON DEVORA 5;J 884 -->
+<html> <!-- indica que es un codigo en html -->
+	<head> <!-- es el contenedor de datos ue no se muestran en el sitio -->
+		<title>pagina web de ejemplo: texto</title> <!-- el titulo en la pestana-->
+	</head> <!-- el cierre del contenedor head -->
+
+	<body text="orange"> <!-- contenedor de datos visibles, el texto sera naranja-->
+  
+		<b>esta es una linea </b>, y a continuacion <b><u> insertemoos un salto</u></b> de linea <br/>
+			<!-- b es para letras en negritas, u para texto subrayado, br para un salto de linea -->
+		esta es una linea, y <u>a continuacion insertamos </u> un salto de linea.</br>
+			<!-- br hace un salto hacia la siguiente linea, u subraya el texto-->
+		esta es una linea, y <strong> a continuacion</strong> insrtamos un <i>salto de linea</i>.<br>
+			<!-- strong, contenido de gran importancia, i separa del texto normal -->
+		<font color="green" size="11 px">esta es una linea </font>, y <strong> a continuacion</strong> insrtamos un salto de linea.
+			<!-- determina que el texto tiene 11 pixeles de tamano y es verde, es de gran importancia-->
+		<font face="Arial"> esta es una </font> linea, y <font color="red"> a continuacion</font> insertamos un salto de linea.
+			<!-- dertermina que la fuente es arial y color rojo-->
+		<p>este es un parrafo <font color="cyan"> con <u>la letra</u> en <b>diferentes formatos</b></font>
+			<!-- diferentes partes del texto son color cyan (font), suberayados (u) y en negritas (b)-->
+      
+	</body> <!-- cierre del contenedor cuerpo -->
+</html> <!-- fin del codigo html -->
+
+
