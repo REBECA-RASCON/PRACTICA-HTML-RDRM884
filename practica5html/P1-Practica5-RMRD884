@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi horario</title>
+	
+	<!-- Inicio del CSS que le dara color y estilo a la tabla-->
+	<style>
+		/* Estilo para el título principal */
+		h1 {
+			color: #8a9aff;
+			font-family: "Lucida Console", "Courier New", monospace;
+			text-align: center; /* Centra el título */
+		}
+
+		/* Estilo general para la tabla y sus celdas */
+		table, th, td {
+			border: 1px solid black; /* Borde negro de 1px */
+			border-collapse: collapse; /* Une los bordes de la tabla */
+			font-family: "Lucida Console", "Courier New", monospace;
+			padding: 8px; /* Espacio dentro de cada celda */
+			text-align: center; /* Centra el texto de cada celda */
+		}
+		
+		/* Color de fondo gris para los títulos (días y horas) */
+		th {
+			background-color: #f0f0f0;
+		}
+
+		
+		/* Colores de la materia*/
+		/* El punto (.) indica que es una clase CSS       */
+
+		.historia {
+			background-color: #FFCDD2; /* Rojo claro */
+		}
+		.administracion {
+			background-color: #C8E6C9; /* Verde claro */
+		}
+		.ingles {
+			background-color: #BBDEFB; /* Azul claro */
+		}
+		.prog1 {
+			background-color: #FFE0B2; /* Naranja claro */
+		}
+		.prog2 {
+			background-color: #FFCC80; /* Naranja medio */
+		}
+		.ciencias {
+			background-color: #E1BEE7; /* Morado claro */
+		}
+		.socioemocional {
+			background-color: #F8BBD0; /* Rosa claro */
+		}
+		.matematicas {
+			background-color: #FFF9C4; /* Amarillo claro */
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>MI HORARIO ESCOLAR</h1>
+	
+	<!-- Inicia la tabla-->
+
+	<table>
+		
+		<!-- Fila 1: Título del grupo (ocupa 6 columnas) -->
+		<tr>
+			<th colspan="6">5;J</th>
+		</tr>
+
+		<!-- Fila 2: Encabezados con los días de la semana -->
+		<tr>
+			<th>hora</th>
+			<th>lunes</th>
+			<th>martes</th>
+			<th>miercoles</th>
+			<th>jueves</th>
+			<th>viernes</th>
+		</tr>
+
+		<!-- Fila 3: Horario 7:00 a 8:00 -->
+		<tr>
+			<th>7:00<br>8:00</th>
+			<td></td>
+			<td class="historia">historia</td>
+			<td class="administracion">administracion</td>
+			<td class="administracion">administracion</td>
+			<td class="ingles">ingles</td>
+		</tr>
+
+		<!-- Fila 4: Horario 8:00 a 9:00 -->
+		<tr>
+			<th>8:00<br>9:00</th>
+			<td></td>
+			<td class="administracion">administracion</td>
+			<td class="historia">historia</td>
+			<td class="ingles">ingles</td>
+			<td class="historia">historia</td>
+		</tr>
+
+		<!-- Fila 5: Horario 9:00 a 10:00 -->
+		<tr>
+			<th>9:00<br>10:00</th>
+			<td class="ingles">ingles</td>
+			<td class="prog1">programacion 1</td>
+			<td class="prog1">programacion 1</td>
+			<td class="prog1">programacion 1</td>
+			<td class="prog1">programacion 1</td>
+		</tr>
+
+		<!-- Fila 6: Horario 10:00 a 10:50 -->
+		<tr>
+			<th>10:00<br>10:50</th>
+			<td class="ciencias">ciencias</td>
+			<td class="prog1">programacion 1</td>
+			<td class="ingles">ingles</td>
+			<td class="prog1">programacion 1</td>
+			<td class="prog1">programacion 1</td>
+		</tr>
+
+		<!-- Fila 7: Horario 11:10 a 12:00 -->
+		<tr>
+			<th>11:10<br>12:00</th>
+			<td class="prog2">programacion 2</td>
+			<td class="prog2">programacion 2</td>
+			<td class="ciencias">ciencias</td>
+			<td class="prog2">programacion 2</td>
+			<td class="ciencias">ciencias</td>
+		</tr>
+
+		<!-- Fila 8: Horario 12:00 a 13:00 -->
+		<tr>
+			<th>12:00<br>13:00</th>
+			<td class="socioemocional">socioemocional</td>
+			<td class="ingles">ingles</td>
+			<td class="ciencias">ciencias</td>
+			<td class="prog2">programacion 2</td>
+			<td class="prog2">programacion 2</td>
+		</tr>
+
+		<!-- Fila 9: Horario 13:00 a 14:00 -->
+		<tr>
+			<th>13:00<br>14:00</th>
+			<td class="matematicas">matematicas</td>
+			<td class="matematicas">matematicas</td>
+			<td class="matematicas">matematicas</td>
+			<td class="matematicas">matematicas</td>
+			<td class="matematicas">matematicas</td>
+		</tr>
+
+	</table> <!-- Cierre de la tabla -->
+
+</body>
+</html>
