@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--REBECA MIRANDA RASCON DEVORA 5:j 0884-->
 <html>
 <head>
 	<title>Mi horario</title>
@@ -151,6 +151,7 @@
 		</tr>
 
 	</table> <!-- Cierre de la tabla -->
+	<p>REBECA MIRANDA RASCON DEVORA 5:j 0884</p> <!--Mi nombre y datos-->
 
 </body>
 </html>
