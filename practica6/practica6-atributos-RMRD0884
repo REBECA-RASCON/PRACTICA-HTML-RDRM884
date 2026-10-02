@@ -1,104 +1,104 @@
-<!DOCTYPE html> <!-- Dice que es un documento HTML -->
-<html lang="es"> <!-- Inicio de la página, en idioma español -->
+<!DOCTYPE html> <!-- dice que es un documento HTML -->
+<html lang="es"> <!-- inicio de la página, en idioma español -->
 <head> <!-- Información de la página -->
-	<meta charset="UTF-8"> <!-- Permite acentos y la letra ñ -->
-	<title>Semáforo Triage</title> <!-- Nombre que sale en la pestaña -->
-	<style> /* Aquí empieza el CSS (los estilos) */
+	<meta charset="UTF-8"> <!-- permite acentos y la letra ñ -->
+	<title>Semáforo Triage</title> <!-- nombre que sale en la pestaña -->
+	<style> /* aquí empieza el CSS*/
  
-		body { /* Estilo de toda la página */
-			font-family: "Comic Sans MS", "Comic Sans", sans-serif; /* Tipo de letra */
-			background-color: white; /* Fondo blanco */
-			text-align: center; /* Todo centrado */
+		body { /* estilo de toda la página */
+			font-family: "Comic Sans MS", "Comic Sans", sans-serif; /* tipo de letra */
+			background-color: white; /* fondo blanco */
+			text-align: center; /* todo centrado */
 		}
  
 		/* Títulos */
-		.semaforo { /* Clase de la palabra Semáforo */
-			color: #102752; /* Color azul oscuro */
-			font-size: 40px; /* Tamaño de letra */
-			font-weight: bold; /* Letra en negritas */
-			margin: 0; /* Sin espacio alrededor */
+		.semaforo { /* clase de la palabra Semáforo */
+			color: #102752; /* color azul oscuro */
+			font-size: 40px; /* tamaño de letra */
+			font-weight: bold; /* letra en negritas */
+			margin: 0; /* sin espacio alrededor */
 		}
  
-		.triage { /* Clase de la palabra TRIAGE */
-			color: #102752; /* Color azul oscuro */
-			font-size: 90px; /* Letra muy grande */
-			font-weight: bold; /* Negritas */
-			font-style: italic; /* Letra inclinada */
-			margin: 0; /* Sin espacio alrededor */
+		.triage { /* clase de la palabra triage */
+			color: #102752; /* color azul oscuro */
+			font-size: 90px; /* letra muy grande */
+			font-weight: bold; /* negritas */
+			font-style: italic; /* letra inclinada */
+			margin: 0; /* sin espacio alrededor */
 		}
  
-		.urgencias { /* Clase de la palabra urgencias */
-			color: #102752; /* Color azul oscuro */
-			font-size: 22px; /* Tamaño de letra */
-			margin: 0 0 20px 0; /* Solo espacio abajo */
+		.urgencias { /* clase de la palabra urgencias */
+			color: #102752; /* color azul oscuro */
+			font-size: 22px; /* tamaño de letra */
+			margin: 0 0 20px 0; /* solo espacio abajo */
 		}
  
 		/* Tabla */
-		table { /* Estilo de la tabla */
-			margin: 0 auto; /* Centra la tabla */
-			border-spacing: 10px; /* Espacio entre celdas */
+		table { /* estilo de la tabla */
+			margin: 0 auto; /* centra la tabla */
+			border-spacing: 10px; /* espacio entre celdas */
 		}
  
-		.atencion { /* Clase de los encabezados de la tabla */
-			background-color: #e8eaf0; /* Fondo gris claro */
-			color: #102752; /* Letra azul oscuro */
-			border-radius: 15px; /* Esquinas redondeadas */
-			padding: 8px 15px; /* Espacio dentro de la celda */
+		.atencion { /* clase de los encabezados de la tabla */
+			background-color: #e8eaf0; /* fondo gris claro */
+			color: #102752; /* letra azul oscuro */
+			border-radius: 15px; /* esquinas redondeadas */
+			padding: 8px 15px; /* espacio dentro de la celda */
 		}
  
-		td { /* Estilo de todas las celdas */
-			padding: 10px 15px; /* Espacio dentro de la celda */
-			font-size: 16px; /* Tamaño de letra */
+		td { /* estilo de todas las celdas */
+			padding: 10px 15px; /* espacio dentro de la celda */
+			font-size: 16px; /* tamaño de letra */
 		}
  
 		/* Colores de texto por fila */
-		.rojo     { color: #e8262b; } /* Texto rojo */
-		.naranja  { color: #f58a4a; } /* Texto naranja */
-		.amarillo { color: #fdd835; } /* Texto amarillo */
-		.verde    { color: #1faa4b; } /* Texto verde */
-		.azul     { color: #1747a8; } /* Texto azul */
+		.rojo     { color: #e8262b; } /* texto rojo */
+		.naranja  { color: #f58a4a; } /* texto naranja */
+		.amarillo { color: #fdd835; } /* texto amarillo */
+		.verde    { color: #1faa4b; } /* texto verde */
+		.azul     { color: #1747a8; } /* texto azul */
  
 		.tipo { /* clase para el nombre del tipo de atención */
-			font-weight: bold; /* Negritas */
-			font-style: italic; /* Letra inclinada */
-			font-size: 22px; /* Letra más grande */
+			font-weight: bold; /* negritas */
+			font-style: italic; /* letra inclinada */
+			font-size: 22px; /* letra más grande */
 		}
  
-		/* Nombre al final */
-		.nombre { /* clase de tu nombre */
+		/*mi nombre */
+		.nombre { /* clase mi nombre */
 			color: #102752; /* color azul oscuro */
-			margin-top: 30px; /* Espacio arriba */
+			margin-top: 30px; /* espacio arriba */
 		}
-	</style> <!-- Aquí termina el CSS -->
+	</style> <!-- termina el CSS -->
 </head>
-<body> <!-- Lo que sí se ve en la página -->
-	<p class="semaforo">Semáforo</p> <!-- Título pequeño -->
-	<p class="triage">TRIAGE</p> <!-- Título grande -->
-	<p class="urgencias">urgencias</p> <!-- Subtítulo -->
+<body> <!-- lo que sí se ve en la página -->
+	<p class="semaforo">Semáforo</p> <!-- título pequeño -->
+	<p class="triage">TRIAGE</p> <!-- título grande -->
+	<p class="urgencias">urgencias</p> <!-- subtítulo -->
  
-	<table> <!-- Inicia la tabla -->
-		<tr> <!-- Fila de encabezados -->
+	<table> <!-- inicia la tabla -->
+		<tr> <!-- fila de encabezados -->
 			<th class="atencion">Tipo de atención</th> <!-- Encabeezado 1 -->
 			<th class="atencion">Área de atención</th> <!-- Encabeezado 2 -->
 			<th class="atencion">Tiempo de espera</th> <!-- Encabeezado 3 -->
 		</tr>
 		<tr> <!-- Fila 1: Reanimación (rojo) -->
-			<td class="tipo rojo">Reanimación</td> <!-- Usa dos clases: tipo y rojo -->
-			<td class="rojo">Área de <br> reanimación</td> <!-- br = salto de línea -->
+			<td class="tipo rojo">Reanimación</td> <!-- dos clases: tipo y rojo -->
+			<td class="rojo">Área de <br> reanimación</td> <!-- br salto de línea -->
 			<td class="rojo">Inmediato <br> hasta 3 min</td>
 		</tr>
-		<tr> <!-- Fila 2: Emergencia (naranja) -->
+		<tr> <!-- Fila 2: eemergencia (naranja) -->
 			<td class="tipo naranja">Emergencia</td>
 			<td class="naranja">Área de <br> reanimación</td>
 			<td class="naranja">Inmediato <br> hasta 10 min</td>
 		</tr>
-		<tr> <!-- Fila 3: Urgencia (amarillo) -->
+		<tr> <!-- Fila 3: urgencia (amarillo) -->
 			<td class="tipo amarillo">Urgencia</td>
 			<td class="amarillo">consultorio de <br> primer contacto</td>
-			<td class="amarillo">Hasta 30 min</td>
+			<td class="amarillo">hasta 30 min</td>
 		</tr>
-		<tr> <!-- Fila 4: Urgencia menor (verde) -->
-			<td class="tipo verde">Urgencia <br> menor</td>
+		<tr> <!-- Fila 4: urgencia menor (verde) -->
+			<td class="tipo verde">urgencia <br> menor</td>
 			<td class="verde">Consultorio de <br> primer contacto <br> o UMF</td>
 			<td class="verde">Hasta 120 min</td>
 		</tr>
@@ -107,7 +107,7 @@
 			<td class="azul">Consultorio de <br> primer contacto <br> o UMF</td>
 			<td class="azul">Hasta 180 min</td>
 		</tr>
-	</table> <!-- Termina la tabla -->
+	</table> <!-- termina la tabla -->
  
 	<p class="nombre">REBECA MIRANDA RASCON DEVORA 5;j 884</p> <!-- nombre y datos -->
 </body>
