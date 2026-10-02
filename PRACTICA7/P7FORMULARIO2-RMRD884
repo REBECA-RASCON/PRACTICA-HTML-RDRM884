@@ -1,0 +1,8 @@
+<!--RASCON DEVORA REBECA MIRANDA 5,J 884-->
+<h2>Ejemplo basico</h2> <!-- ENCABEZADO DEL SEGUNDO EJEMPLO-->
+<form action="" method="post"> <!--
+Ingresa tu nombre:
+<input type="text" name="nombre" size="20">
+<br>
+<input type="submit" value="enviar">
+</form>
