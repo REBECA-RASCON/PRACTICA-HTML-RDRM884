@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Semáforo Triage</title>
+	<style>
+		body {
+			font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+			background-color: white;
+			text-align: center;
+		}
+ 
+	
+		.semaforo {
+			color: #102752;
+			font-size: 40px;
+			font-weight: bold;
+			margin: 0;
+		}
+ 
+		.triage {
+			color: #102752;
+			font-size: 90px;
+			font-weight: bold;
+			font-style: italic;
+			margin: 0;
+		}
+ 
+		.urgencias {
+			color: #102752;
+			font-size: 22px;
+			margin: 0 0 20px 0;
+		}
+ 
+		table {
+			margin: 0 auto;
+			border-spacing: 10px;
+		}
+ 
+		.atencion {
+			background-color: #e8eaf0;
+			color: #102752;
+			border-radius: 15px;
+			padding: 8px 15px;
+		}
+ 
+		td {
+			padding: 10px 15px;
+			font-size: 16px;
+		}
+ 
+		
+		.rojo     { color: #e8262b; }
+		.naranja  { color: #f58a4a; }
+		.amarillo { color: #fdd835; }
+		.verde    { color: #1faa4b; }
+		.azul     { color: #1747a8; }
+ 
+		.tipo {
+			font-weight: bold;
+			font-style: italic;
+			font-size: 22px;
+		}
+ 
+		/* Nombre al final */
+		.nombre {
+			color: #102752;
+			margin-top: 30px;
+		}
+	</style>
+</head>
+<body>
+	<p class="semaforo">Semáforo</p>
+	<p class="triage">TRIAGE</p>
+	<p class="urgencias">urgencias</p>
+ 
+	<table>
+		<tr>
+			<th class="atencion">Tipo de atención</th>
+			<th class="atencion">Área de atención</th>
+			<th class="atencion">Tiempo de espera</th>
+		</tr>
+		<tr>
+			<td class="tipo rojo">Reanimación</td>
+			<td class="rojo">Área de <br> reanimación</td>
+			<td class="rojo">Inmediato <br> hasta 3 min</td>
+		</tr>
+		<tr>
+			<td class="tipo naranja">Emergencia</td>
+			<td class="naranja">Área de <br> reanimación</td>
+			<td class="naranja">Inmediato <br> hasta 10 min</td>
+		</tr>
+		<tr>
+			<td class="tipo amarillo">Urgencia</td>
+			<td class="amarillo">Consultorio de <br> primer contacto</td>
+			<td class="amarillo">Hasta 30 min</td>
+		</tr>
+		<tr>
+			<td class="tipo verde">Urgencia <br> menor</td>
+			<td class="verde">Consultorio de <br> primer contacto <br> o UMF</td>
+			<td class="verde">Hasta 120 min</td>
+		</tr>
+		<tr>
+			<td class="tipo azul">Sin <br> urgencia</td>
+			<td class="azul">Consultorio de <br> primer contacto <br> o UMF</td>
+			<td class="azul">Hasta 180 min</td>
+		</tr>
+	</table>
+ 
+	<p class="nombre">REBECA MIRANDA RASCON DEVORA</p>
+</body>
+</html>
+ 
