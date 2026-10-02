@@ -65,11 +65,7 @@
 			font-size: 22px; /* letra más grande */
 		}
  
-		/*mi nombre */
-		.nombre { /* clase mi nombre */
-			color: #102752; /* color azul oscuro */
-			margin-top: 30px; /* espacio arriba */
-		}
+		
 	</style> <!-- termina el CSS -->
 </head>
 <body> <!-- lo que sí se ve en la página -->
@@ -110,7 +106,7 @@
 		</tr>
 	</table> <!-- termina la tabla -->
  
-	<p class="nombre">REBECA MIRANDA RASCON DEVORA 5;j 884</p> <!-- nombre y datos -->
+	<p>REBECA MIRANDA RASCON DEVORA 5;j 884</p> <!-- nombre y datos -->
 </body>
 </html>
  
