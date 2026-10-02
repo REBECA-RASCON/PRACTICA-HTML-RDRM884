@@ -1,0 +1,19 @@
+<!DOCTYPE html> <!-- INDICA QUE ES UN CODIGO HTML -->
+<html lang="en"> <!-- EMPIEZA EL CODIGO HTML -->
+<head> <!--EL CONTENDOR DE LO QUE NO ES VISIBLE-->
+  <meta charset="UTF-8"> <-- DEJA USAR CARACTERES COMO LA Ñ-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--COMO SE VE EL SITIO WEB, SUS PROPORCIONES-->
+  <title>Formularios en HTML</title> <!--TITULO EN LA PESTAÑA-->
+  <!-- Libreria de iconos en linea -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  <!--ES OTRO ARCHIVO CSS PARA DARLE ESTILO AL DOCUMENTO HTML-->
+</head> <!--FIN DEL CONTENEDOR HEAD-->
+
+<body> <!--INICIO DEL CONTENEDOR DONDE SE VISUALIZA EL CONTENIDO-->
+  <h1>Formularios</h1> <!--ENCABEZADO-->
+  <p>Un formulario permite al visitante cargar datos y que sean enviados al servidor.</p> <!--PARRAFO-->
+  <p>El HTML no tiene la responsabilidad de registrar los datos en el servidor,
+  esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP,
+  ASP, ASP.NET, Node, etc.)
+</p> <!--PARRAFO-->
