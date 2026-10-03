@@ -1,14 +1,14 @@
 <h2>Formularios con Radioboton</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
 <form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
-Ingresa tu nombre: <!-- TEXTO INFORMATIVO PARA PEDIR EL NOMBRE -->
-<input type="text" name="nombre"> <!-- CAMPO DE TEXTO PARA ESCRIBIR EL NOMBRE -->
-<br> <!-- SALTO DE LÍNEA PARA SEPARAR EL TEXTO -->
-Selecciona el maximo de estudios que tienes: <!-- TEXTO INFORMATIVO DE INSTRUCCIÓN -->
-<br> <!-- SALTO DE LÍNEA PARA EMPEZAR LAS OPCIONES ABAJO -->
-<input type="radio" name="estudios" value="1">Sin estudios <br> <!-- BOTÓN DE OPCIÓN ÚNICA CERO ESTUDIOS Y SALTO DE LÍNEA -->
-<input type="radio" name="estudios" value="2">Primaria <br> <!-- BOTÓN DE OPCIÓN ÚNICA PRIMARIA Y SALTO DE LÍNEA -->
-<input type="radio" name="estudios" value="3">Secundaria <br> <!-- BOTÓN DE OPCIÓN ÚNICA SECUNDARIA Y SALTO DE LÍNEA -->
-<input type="radio" name="estudios" value="4">Preparatoria <br> <!-- BOTÓN DE OPCIÓN ÚNICA PREPARATORIA Y SALTO DE LÍNEA -->
-<input type="submit" value="enviar"> <!-- BOTÓN PARA ENVIAR EL FORMULARIO -->
-<input type="reset" value="borrar"> <!-- BOTÓN PARA REINICIAR Y LIMPIAR EL FORMULARIO -->
+  Ingresa tu nombre: <!-- TEXTO INFORMATIVO PARA PEDIR EL NOMBRE -->
+  <input type="text" name="nombre"> <!-- CAMPO DE TEXTO PARA ESCRIBIR EL NOMBRE -->
+  <br> <!-- SALTO DE LÍNEA PARA SEPARAR EL TEXTO -->
+  Selecciona el maximo de estudios que tienes: <!-- TEXTO INFORMATIVO DE INSTRUCCIÓN -->
+  <br> <!-- SALTO DE LÍNEA PARA EMPEZAR LAS OPCIONES ABAJO -->
+  <input type="radio" name="estudios" value="1">Sin estudios <br> <!-- BOTÓN DE OPCIÓN ÚNICA CERO ESTUDIOS Y SALTO DE LÍNEA -->
+  <input type="radio" name="estudios" value="2">Primaria <br> <!-- BOTÓN DE OPCIÓN ÚNICA PRIMARIA Y SALTO DE LÍNEA -->
+  <input type="radio" name="estudios" value="3">Secundaria <br> <!-- BOTÓN DE OPCIÓN ÚNICA SECUNDARIA Y SALTO DE LÍNEA -->
+  <input type="radio" name="estudios" value="4">Preparatoria <br> <!-- BOTÓN DE OPCIÓN ÚNICA PREPARATORIA Y SALTO DE LÍNEA -->
+  <input type="submit" value="enviar"> <!-- BOTÓN PARA ENVIAR EL FORMULARIO -->
+  <input type="reset" value="borrar"> <!-- BOTÓN PARA REINICIAR Y LIMPIAR EL FORMULARIO -->
 </form> <!-- FIN DEL FORMULARIO -->
