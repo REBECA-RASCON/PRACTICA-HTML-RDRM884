@@ -1,11 +1,11 @@
-<h2>Formulario para contraseñas</h2>
-<form action="" method="post">
+<h2>Formulario para contraseñas</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
+<form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
 
-Ingresa tu usuario:
-<input type="text" name="usuario">
-Ingresa tu contraseña:
-<input type="password" name="pass">
-<br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
-</form>
+  Ingresa tu usuario: <!-- TEXTO INFORMATIVO PARA PEDIR EL USUARIO -->
+  <input type="text" name="usuario"> <!-- CAMPO DE TEXTO NORMAL PARA ESCRIBIR EL USUARIO -->
+  Ingresa tu contraseña: <!-- TEXTO INFORMATIVO PARA PEDIR LA CONTRASEÑA -->
+  <input type="password" name="pass"> <!-- CAMPO DE CONTRASEÑA QUE OCULTA LOS CARACTERES CON PUNTOS -->
+  <br> <!-- SALTO DE LÍNEA PARA BAJAR LOS BOTONES -->
+  <input type="submit" value="enviar"> <!-- BOTÓN TIPO INPUT PARA ENVIAR EL FORMULARIO -->
+  <input type="reset" value="borrar"> <!-- BOTÓN TIPO INPUT PARA LIMPIAR EL FORMULARIO -->
+</form> <!-- FIN DEL FORMULARIO -->
