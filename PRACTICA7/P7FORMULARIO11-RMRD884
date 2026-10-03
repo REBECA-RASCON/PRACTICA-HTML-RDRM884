@@ -1,9 +1,9 @@
-<h2>Formulario con campos ocultos</h2>
-<form action="" method="post">
-<input type="hidden" name="hora" value="3:30">
-Ingresa tu nombre:
-<input type="text" name="nombre">
-<br>
-<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
-<button type="reset">Borrar <i class="fa fa-trash"></i></button>
-</form>
+<h2>Formulario con campos ocultos</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
+<form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
+  <input type="hidden" name="hora" value="3:30"> <!-- CAMPO OCULTO QUE ENVÍA INFORMACIÓN INVISIBLE PARA EL USUARIO -->
+  Ingresa tu nombre: <!-- TEXTO INFORMATIVO PARA PEDIR EL NOMBRE -->
+  <input type="text" name="nombre"> <!-- CAMPO DE TEXTO PARA ESCRIBIR EL NOMBRE -->
+  <br> <!-- SALTO DE LÍNEA PARA SEPARAR EL CAMPO DE LOS BOTONES -->
+  <button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button> <!-- BOTÓN PARA ENVIAR LOS DATOS CON ÍCONO DE AVIONCITO -->
+  <button type="reset">Borrar <i class="fa fa-trash"></i></button> <!-- BOTÓN PARA LIMPIAR EL FORMULARIO CON ÍCONO DE BASURA -->
+</form> <!-- FIN DEL FORMULARIO -->
