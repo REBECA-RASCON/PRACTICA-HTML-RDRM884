@@ -1,17 +1,16 @@
-<h2>Formulario con limitaciones</h2>
-<form action="" method="post">
-Ingresa tu nombre:
-<!-- Desahbilitacion de campo -->
-<input type="text" name="nombre" disabled><br>
-<!-- Limitacion de caracteres -->
-Contraseña:
-<input type="password" name="pass" maxlength="5"><br>
-<!-- Solo lectura -->
-Comentarios:
-<textarea name="comentarios" readonly>
+<h2>Formulario con limitaciones</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
+<form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
+  Ingresa tu nombre: <!-- TEXTO INFORMATIVO PARA PEDIR EL NOMBRE -->
+  <input type="text" name="nombre" disabled><br> <!-- CAMPO DESHABILITADO QUE NO PERMITE ESCRIBIR NI ENVÍA SU VALOR -->
 
-Este es mi comentario y no se puede borrar
-</textarea><br>
-</form>
-</body>
-</html>
+  Contraseña: <!-- TEXTO INFORMATIVO PARA PEDIR LA CONTRASEÑA -->
+  <input type="password" name="pass" maxlength="5"><br> <!-- CAMPO DE CONTRASEÑA LIMITADO A UN MÁXIMO DE 5 CARACTERES -->
+
+  Comentarios: <!-- TEXTO INFORMATIVO PARA LOS COMENTARIOS -->
+  <textarea name="comentarios" readonly> <!-- ÁREA DE TEXTO DE SOLO LECTURA QUE NO SE PUEDE EDITAR PERO SÍ SE ENVÍA -->
+
+  Este es mi comentario y no se puede borrar
+  </textarea><br> <!-- TEXTO PRESELECCIONADO DENTRO Y CIERRE DEL ÁREA DE TEXTO -->
+</form> <!-- FIN DEL FORMULARIO -->
+</body> <!-- CIERRE DEL CUERPO DEL HTML -->
+</html> <!-- CIERRE DEL DOCUMENTO HTML -->
