@@ -1,3 +1,4 @@
+<!--RASCON DEVORA REBECA MIRANDA 5,J 884-->
 <h2>Formularios con agrupamiento</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
 <form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
   <fieldset> <!-- AGRUPA UN CONJUNTO DE CAMPOS RELACIONADOS CON UN BORDE VISUAL -->
