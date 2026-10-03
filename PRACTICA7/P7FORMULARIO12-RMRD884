@@ -1,25 +1,25 @@
-<h2>Formularios con agrupamiento</h2>
-<form action="" method="post">
-<fieldset>
-<legend>Datos personales</legend>
-Nombre y apellido:
-<input type="text" name="nombre_apellido"><br>
-Documento valido:
-<input type="file" name="documento"><br>
-Fecha de nacimiento:
+<h2>Formularios con agrupamiento</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
+<form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
+  <fieldset> <!-- AGRUPA UN CONJUNTO DE CAMPOS RELACIONADOS CON UN BORDE VISUAL -->
+    <legend>Datos personales</legend> <!-- TÍTULO O ETIQUETA PRINCIPAL DEL GRUPO FIELDSET -->
+    Nombre y apellido: <!-- TEXTO INFORMATIVO PARA EL NOMBRE -->
+    <input type="text" name="nombre_apellido"><br> <!-- CAMPO DE TEXTO NORMAL Y SALTO DE LÍNEA -->
+    Documento valido: <!-- TEXTO INFORMATIVO PARA SUBIR DOCUMENTO -->
+    <input type="file" name="documento"><br> <!-- CAMPO DE TIPO ARCHIVO PARA ADJUNTAR UN DOCUMENTO Y SALTO DE LÍNEA -->
+    Fecha de nacimiento: <!-- TEXTO INFORMATIVO PARA LA FECHA DE NACIMIENTO -->
 
-<input type="date" name="fecha_nacimiento">
-</fieldset>
-<fieldset>
-<legend>Datos de estudio:</legend>
-Nombre de la escuela:
-<input type="text" name="escuela"><br>
-Certificado valido:
-<input type="file" name="certificado"><br>
-Fecha de egreso:
-<input type="date" name="fecha_egreso">
-</fieldset>
-<br>
-<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
-<button type="reset">Borrar <i class="fa fa-trash"></i></button>
-</form>
+    <input type="date" name="fecha_nacimiento"> <!-- CAMPO DE TIPO FECHA CON SELECTOR DE CALENDARIO -->
+  </fieldset> <!-- FIN DEL PRIMER GRUPO DE CAMPOS -->
+  <fieldset> <!-- AGRUPA EL SEGUNDO CONJUNTO DE CAMPOS RELACIONADOS -->
+    <legend>Datos de estudio:</legend> <!-- TÍTULO DEL SEGUNDO GRUPO FIELDSET -->
+    Nombre de la escuela: <!-- TEXTO INFORMATIVO PARA LA ESCUELA -->
+    <input type="text" name="escuela"><br> <!-- CAMPO DE TEXTO NORMAL Y SALTO DE LÍNEA -->
+    Certificado valido: <!-- TEXTO INFORMATIVO PARA SUBIR CERTIFICADO -->
+    <input type="file" name="certificado"><br> <!-- CAMPO DE TIPO ARCHIVO PARA ADJUNTAR CERTIFICADO Y SALTO DE LÍNEA -->
+    Fecha de egreso: <!-- TEXTO INFORMATIVO PARA LA FECHA DE EGRESO -->
+    <input type="date" name="fecha_egreso"> <!-- CAMPO DE TIPO FECHA PARA LA FECHA DE EGRESO -->
+  </fieldset> <!-- FIN DEL SEGUNDO GRUPO DE CAMPOS -->
+  <br> <!-- SALTO DE LÍNEA PARA SEPARAR LOS BOTONES -->
+  <button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button> <!-- BOTÓN PARA ENVIAR LOS DATOS CON ÍCONO DE AVIONCITO -->
+  <button type="reset">Borrar <i class="fa fa-trash"></i></button> <!-- BOTÓN PARA LIMPIAR TODO EL FORMULARIO CON ÍCONO DE BASURA -->
+</form> <!-- FIN DEL FORMULARIO -->
