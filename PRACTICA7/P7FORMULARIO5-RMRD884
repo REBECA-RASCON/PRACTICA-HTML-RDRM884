@@ -1,13 +1,13 @@
-<h2>Formularios con checkbox</h2>
-<form action="" method="post">
-Ingresa tu nombre:
-<input type="text" name="nombre">
+<h2>Formularios con checkbox</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
+<form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
+  Ingresa tu nombre: <!-- TEXTO INFORMATIVO PARA PEDIR EL NOMBRE -->
+  <input type="text" name="nombre"> <!-- CAMPO DE TEXTO PARA ESCRIBIR EL NOMBRE -->
 
-<br>
-Selecciona los lenguajes que conozcas:
-<br>
-<input type="checkbox" name="Java">Java <br>
-<input type="checkbox" name="Python"> Python <br>
-<input type="checkbox" name="C#">C# <br>
-<input type="checkbox" name="Flutter"> Flutter <br>
-</form>
+  <br> <!-- SALTO DE LÍNEA PARA SEPARAR EL TEXTO -->
+  Selecciona los lenguajes que conozcas: <!-- TEXTO INFORMATIVO DE INSTRUCCIÓN -->
+  <br> <!-- SALTO DE LÍNEA PARA MOSTRAR LAS CASILLAS ABAJO -->
+  <input type="checkbox" name="Java">Java <br> <!-- CASILLA DE SELECCIÓN MÚLTIPLE PARA JAVA Y SALTO DE LÍNEA -->
+  <input type="checkbox" name="Python"> Python <br> <!-- CASILLA DE SELECCIÓN MÚLTIPLE PARA PYTHON Y SALTO DE LÍNEA -->
+  <input type="checkbox" name="C#">C# <br> <!-- CASILLA DE SELECCIÓN MÚLTIPLE PARA C# Y SALTO DE LÍNEA -->
+  <input type="checkbox" name="Flutter"> Flutter <br> <!-- CASILLA DE SELECCIÓN MÚLTIPLE PARA FLUTTER Y SALTO DE LÍNEA -->
+</form> <!-- FIN DEL FORMULARIO -->
