@@ -1,14 +1,14 @@
-<h2>Formulario con text area</h2>
-<form action="" method="post">
-Ingresa tu nombre:
-<input type="text" name="nombre">
-<br>
-Ingresa tu correo:
-<input type="email" name="correo">
-<br>
-Ingresa tus comentarios:
-<textarea name="comentarios" rows="1" cols="10"></textarea>
-<br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
-</form>
+<h2>Formulario con text area</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
+<form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
+  Ingresa tu nombre: <!-- TEXTO INFORMATIVO PARA PEDIR EL NOMBRE -->
+  <input type="text" name="nombre"> <!-- CAMPO DE TEXTO PARA ESCRIBIR EL NOMBRE -->
+  <br> <!-- SALTO DE LÍNEA -->
+  Ingresa tu correo: <!-- TEXTO INFORMATIVO PARA PEDIR EL CORREO -->
+  <input type="email" name="correo"> <!-- CAMPO ESPECIAL PARA VALIDAR Y ESCRIBIR UN EMAIL -->
+  <br> <!-- SALTO DE LÍNEA -->
+  Ingresa tus comentarios: <!-- TEXTO INFORMATIVO PARA LOS COMENTARIOS -->
+  <textarea name="comentarios" rows="1" cols="10"></textarea> <!-- CAMPO DE TEXTO MULTILÍNEA DE 1 FILA Y 10 COLUMNAS DE ANCHO -->
+  <br> <!-- SALTO DE LÍNEA -->
+  <input type="submit" value="enviar"> <!-- BOTÓN TIPO INPUT PARA ENVIAR EL FORMULARIO -->
+  <input type="reset" value="borrar"> <!-- BOTÓN TIPO INPUT PARA LIMPIAR EL FORMULARIO -->
+</form> <!-- FIN DEL FORMULARIO -->
