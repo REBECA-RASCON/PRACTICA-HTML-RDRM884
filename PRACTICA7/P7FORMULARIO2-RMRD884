@@ -1,8 +1,8 @@
 <!--RASCON DEVORA REBECA MIRANDA 5,J 884-->
-<h2>Ejemplo basico</h2> <!-- ENCABEZADO DEL SEGUNDO EJEMPLO-->
-<form action="" method="post"> <!--
-Ingresa tu nombre:
-<input type="text" name="nombre" size="20">
-<br>
-<input type="submit" value="enviar">
-</form>
+<h2>Ejemplo basico</h2> <!-- TÍTULO DE NIVEL 2 QUE ENCABEZA LA SECCIÓN -->
+<form action="" method="post"> <!-- INICIO DEL FORMULARIO CON MÉTODO POST -->
+  Ingresa tu nombre: <!-- TEXTO INFORMATIVO PARA PEDIR EL NOMBRE -->
+  <input type="text" name="nombre" size="20"> <!-- CAMPO DE TEXTO DE HASTA 20 CARACTERES DE ANCHO VISIBLE -->
+  <br> <!-- SALTO DE LÍNEA PARA BAJAR EL BOTÓN -->
+  <input type="submit" value="enviar"> <!-- BOTÓN TIPO INPUT PARA ENVIAR EL FORMULARIO -->
+</form> <!-- FIN DEL FORMULARIO -->
